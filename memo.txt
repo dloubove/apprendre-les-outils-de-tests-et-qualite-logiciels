@@ -1,0 +1,9 @@
+// commande pour lancer des tests
+test ici est le dossier
+
+vendor/bin/phpunit tests --color : lancer tous tests des fichiers *Test dedans
+vendor/bin/phpunit tests  : liste des tests réussis
+vendor/bin/phpunit tests --filter testAddition : ne lancer que testAdditition
+
+// commander pour lancer les tests avec code coverage
+vendor/bin/phpunit tests --coverage-html coverage
